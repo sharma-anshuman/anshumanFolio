@@ -3,3 +3,16 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 80%;
+    margin: auto;
+}
+
+.link-primary {
+    text-decoration: none;
+}
