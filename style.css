@@ -2,6 +2,7 @@
 
 :root{
     --xyz: magenta;
+    --abc: gray;
 }
 
 body{
@@ -48,4 +49,46 @@ hr{
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--xyz);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .img-hero{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .heading-hero{
+    padding-top: 1rem;
+    color: var(--abc);
+}
+
+.hero .heading-hero .heading-inverted{
+    color: var(--xyz);
 }
