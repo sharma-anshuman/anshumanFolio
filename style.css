@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
+:root{
+    --xyz: magenta;
+}
+
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -13,6 +17,26 @@ body{
     margin: auto;
 }
 
-.link-primary {
+.link{
     text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.link-primary {
+    background-color: var(--xyz);
+    border-radius: 0.5rem;
+    color: white;
+    /* border: 2px double yellow; */
+    
+}
+
+.link-secondary{
+    color: var(--xyz);
+    border-radius: 0.5rem;
+    border: 2px double var(--xyz);
+}
+
+hr{
+    margin: 2rem 0rem;
 }
