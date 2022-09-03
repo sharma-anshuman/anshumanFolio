@@ -3,10 +3,12 @@
 :root{
     --xyz: magenta;
     --abc: gray;
+    --off-white: #f3f4f6;
 }
 
 body{
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -14,7 +16,7 @@ body{
 }
 
 .container-center{
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -91,4 +93,32 @@ hr{
 
 .hero .heading-hero .heading-inverted{
     color: var(--xyz);
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h3{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}  
+
+.footer{
+    background-color: var(--xyz);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
