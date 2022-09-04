@@ -77,16 +77,18 @@ hr{
 }
 
 .hero {
+    text-align: center;
     padding: 2rem;
 }
 
 .hero .img-hero{
-    max-width: 350px;
+    max-width: 780px;
     display: block;
     margin: auto;
 }
 
 .hero .heading-hero{
+    font-size: 40px;
     padding-top: 1rem;
     color: var(--abc);
 }
