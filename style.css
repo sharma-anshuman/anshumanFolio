@@ -17,6 +17,7 @@ body{
 
 .container-center{
     max-width: 70%;
+    text-align: center;
     margin: auto;
 }
 
@@ -28,11 +29,12 @@ body{
 
 .link-primary {
     background-color: var(--xyz);
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     color: white;
     /* border: 2px double yellow; */
     
 }
+
 
 .link-secondary{
     color: var(--xyz);
