@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
+html{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 :root{
     --xyz: magenta;
     --abc: gray;
@@ -55,17 +61,11 @@ hr{
 }
 
 .list-item-inline{
-    /* display: inline-block; */
-    float: left;
-    margin-left: 60px;
-    /* padding: 0rem 0.5rem; */
+    display: inline-block;
+    /* float: left;
+    margin-left: 60px; */
+    padding: 0rem 0.5rem;
 }
-/* 
-li {
-    background-image: url(i/bullet.gif) no-repeat center left;
-    padding-left: 20px;
-    display: inline;
-  } */
 
 .navigation{
     background-color: var(--xyz);
