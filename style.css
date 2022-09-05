@@ -48,10 +48,20 @@ hr{
     list-style: none;
 }
 
+.list-bullet{
+    list-style: circle;
+}
+
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
 }
+/* 
+li {
+    background-image: url(i/bullet.gif) no-repeat center left;
+    padding-left: 20px;
+    display: inline;
+  } */
 
 .navigation{
     background-color: var(--xyz);
