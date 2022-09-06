@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
-/* html{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 :root{
-    --xyz: magenta;
+    --xyz: #2563eb;
     --abc: gray;
     --off-white: #f3f4f6;
 }
