@@ -31,15 +31,16 @@ body{
     background-color: var(--xyz);
     border-radius: 3rem;
     color: white;
-    /* border: 2px double yellow; */
-    
 }
 
+.pro-link{
+    margin: 1rem 0.3rem;
+}
 
 .link-secondary{
     color: var(--xyz);
-    border-radius: 0.5rem;
-    border: 2px double var(--xyz);
+    border-radius: 3rem;
+    border: 1px solid var(--xyz);
 }
 
 hr{
@@ -107,6 +108,16 @@ hr{
 .hero .heading-hero .heading-inverted{
     color: var(--xyz);
 }
+
+.pro-inverted{
+    margin-top: auto;
+    color: var(--abc);
+}
+
+.beautify{
+    margin-top: -1.6%;
+}
+
 
 .section{
     padding: 2rem;
