@@ -17,9 +17,10 @@ body{
 
 .container-center{
     max-width: 70%;
+    align-self: center;
     text-align: center;
     margin: auto;
-}
+}   
 
 .link{
     text-decoration: none;
@@ -53,12 +54,21 @@ hr{
 
 .list-bullet{
     list-style: disc;
+    text-align: center;
+    max-width: max-content;
 }
 
 .techli{
-    float: left;
-    margin-left: 50px;
+    /* float: left; */
+    /* margin-left: 2rem; */
+    margin-left: 1.5rem;
+    list-style: none;
+    display: inline;
 }
+
+/* .technologies{
+    max-width: 50%;
+} */
 
 .list-item-inline{
     display: inline-block;
@@ -145,4 +155,8 @@ hr{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.logo-instagram{
+    margin-top: 10rem;
 }
