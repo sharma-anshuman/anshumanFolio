@@ -143,10 +143,11 @@ hr{
 
 .footer{
     background-color: var(--xyz);
-    padding: 2rem 1rem;
+    padding: 2rem 0px;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    padding-bottom: 10px;
 }
 
 .footer .link{
@@ -155,8 +156,4 @@ hr{
 
 .footer ul{
     padding-inline-start: 0px;
-}
-
-.logo-instagram{
-    margin-top: 10rem;
 }
